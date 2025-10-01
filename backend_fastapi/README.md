@@ -17,7 +17,7 @@ Important: This implementation stores sessions in memory only (for development).
 - POST `/auth/confluence/api-token` — Authenticate Confluence via API token `{ email, api_token, site? }` (returns `session_token`)
 - GET `/confluence/spaces` — List Confluence spaces (requires `X-Session-Token`)
 
-All endpoints have OpenAPI docs at `/docs` and `/openapi.json`.
+Docs: `/docs` and `/openapi.json`.
 
 ## CORS
 
